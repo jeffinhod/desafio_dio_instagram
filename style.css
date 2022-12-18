@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+  
+}
+
+body{
+  width: 100%;
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+  
+  
+}
+
+.box-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.box-login{
+  width: 100%;
+}
+.cellphone{
+  width: 40rem;
+}
+
+.box-continue{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem 0;
+  background: #ffff;
+  border: 1px solid lightgray;
+}
+
+.container-login{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.img-logo{
+  width: 9rem;
+  margin: 1rem 0;
+}
+
+.img-perfil{
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.btn-continue{
+  background-color: #0095f6 ;
+  border: none;
+  color: #ffff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.btn-remover{
+  border: none;
+  color: #0095f6;
+  cursor: pointer;
+  
+}
+
+.inseri-email{
+  display: none;
+  flex-direction: column;
+  
+}
+
+.input-dados{
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  padding-left: 10px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid rgb(220, 217, 217);
+  background-color: rgb(243, 243, 243);
+
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0.5rem 0 1.5rem 0;
+  border: 1px solid lightgray;
+  background: #ffff ;
+}
+
+.group p{
+  color: rgb(160, 160, 160);
+  text-align: center;
+}
+
+.group a{
+  text-decoration: none;
+  color: #0095f6;
+}
+
+.box-store{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box-download{
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.btn-store{
+  width: 10rem;
+  cursor: pointer;
+}
+
+.remove{
+  display: none;
+}
+
+@media  (max-width:650px) {
+  .box-image{
+    display: none;
+  }
+  
+  .box-login{
+    max-width: 80%;
+    
+  }
+  .container{
+    align-items: center;
+    justify-content: center;
+  }
+
+}
